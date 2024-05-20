@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Header */}
-      <Box bg="gray.900" color="white" py={4}>
+      <Box bg="gray.800" color="white" py={4}>
         <Flex alignItems="center" px={4}>
           <Heading as="h1" size="lg" letterSpacing="wide">
             Financial Times
@@ -65,7 +65,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box bg="gray.900" color="white" py={4} mt={8}>
+      <Box bg="gray.800" color="white" py={4} mt={8}>
         <Container maxW="container.xl">
           <Flex justifyContent="space-between" alignItems="center">
             <Text>&copy; {new Date().getFullYear()} Financial Times</Text>
